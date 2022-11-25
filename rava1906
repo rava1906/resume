@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+    body {
+        background-image: url(https://inter.ru/wp-content/uploads/2019/05/%D1%84%D0%BE%D0%BD-11.png) ;
+    }
+   .container {
+    display: flex;
+    flex-direction: row;
+   }
+   img {
+    border-right: 20px solid rgba(0,0,0,0);
+   }
+   .text{
+    font-size: 40px;
+    text-align: center;
+   }
+   h1 {
+    font-size: 40px;
+   }
+   .discribe {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+   }
+   .Навык {
+    border-right:300px solid rgba(0,0,0,0);
+    border-left: 100px solid rgba(0,0,0,0) ;
+   }
+   dl {
+    font-size: 30px;
+    border-left: 70px solid rgba(0,0,0,0);
+   }
+   
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+<div class="img">
+<img src="https://damion.club/uploads/posts/2022-03/thumbs/1646226010_53-damion-club-p-programmist-art-61.jpg" alt="Programmer" height="500px">
+</div>
+
+<div class="text">
+    <h1>Front-end Разработчик</h1>
+    <address>Миранов<hr> Равшан <hr>15 лет <hr>Узбекистан<hr>Ташкент</address>
+</div>
+   
+    </div>
+     <br><hr>
+    <div class="discribe">
+ <div class="Навык">
+ <li>
+    Навыки:
+    <ul>HTML</ul>
+    <hr>
+    <ul>CSS</ul>
+    <hr>
+    <ul>JavaScript</ul>
+    <hr>
+ </li>
+ </div>
+ <div class="hobby">
+<li>
+    Хобби:
+    <ul>Читать книги</ul>
+    <hr>
+    <ul>Изучать Английский язык</ul>
+    <hr>
+    <ul>Занимаюсь Воркаутом</ul>
+    <hr>
+</li>
+ </div>      
+    </div>
+<hr>
+<dl>
+    <dt class="email"> 
+        Email:
+        <dd>
+miranovravshan@gmail.com
+        </dd>
+    </dt>
+
+</dl>
+<br>
+<dl>
+    <dt class="number"> 
+        Phone number:
+        <dd>
++998901197475
+        </dd>
+    </dt>
+
+</dl>
+</body>
+</html>
